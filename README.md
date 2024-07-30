@@ -1,13 +1,10 @@
 # A-B-Testing
 A-B Testing notebook
-Test
-	Normal distribution 	Non parametric
-if means of two samples are different	t-test	Mann- Whitney U Test
-if means of more than two samples are different	ANOVA	Kruskal-Wallis H Test
-Test if data is normally distributed	Shapiro-Wilk	Shapiro-Wilk
-Correlation between variables	Continuous: Pearson(continuous variable)
-Spearman: for ordinal and monotonic variables. 
-Categorical: Chi-square	Chi-square
-F-Test	Compare the variance of two or more populations
-check overall significance of a regression model(higher the value, better)
-	
+
+T-Test: For comparing means between two groups (small samples or unknown variance).
+
+Z-Test: For comparing means between two groups (large samples or known variance).
+
+Fisher's Exact Test: For small samples in a 2x2 contingency table. (categorical variables)
+
+Chi-Square Test: For larger samples with categorical data in contingency tables.
